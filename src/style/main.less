@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: @body-bg;
+  font: 400 @basic-size 'ProximaNova';
+  color: @main-color;
+}
+
+a {
+  transition: all 0.3s;
+  text-decoration: none;
+  color: @link-color;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -62px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.footer,
+.wrapper:after {
+  height: 62px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.highlight {
+  color: @theme-color;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/*
+* Custom
+*/
+@import "partials/fonts";
+@import "partials/variable";
+@import "partials/mixins";
+@import "partials/buttons";
+@import "partials/inputs";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/center";

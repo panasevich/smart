@@ -1,0 +1,127 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M460.8 665.6h102.4v102.4h-102.4v-102.4zM460.8 256h102.4v307.2h-102.4v-307.2zM511.744 0c-0.038-0-0.083-0-0.128-0-282.558 0-511.616 229.058-511.616 511.616 0 0.135 0 0.27 0 0.405-0 282.859 228.864 511.979 511.744 511.979 2.408 0.041 5.249 0.064 8.096 0.064 282.805 0 512.064-229.259 512.064-512.064s-229.259-512.064-512.064-512.064c-2.847 0-5.688 0.023-8.523 0.070zM512 921.6c-0.038 0-0.083 0-0.128 0-226.145 0-409.472-183.327-409.472-409.472 0-0.045 0-0.090 0-0.135-0-226.297 183.296-409.593 409.6-409.593s409.6 183.296 409.6 409.6c0 226.304-183.296 409.6-409.6 409.6z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(229, 9, 26)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "error"
+        ],
+        "colorPermutations": {
+          "118618617418282771": [
+            {
+              "f": 0
+            }
+          ],
+          "22992618282771": [
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(229, 9, 26)"
+        }
+      ],
+      "properties": {
+        "order": 4,
+        "id": 1,
+        "name": "error",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M438.989 641.28l-251.29-251.341-85.299 85.299 336.589 336.589 482.611-510.566-85.299-85.299z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(82, 82, 77)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "checked"
+        ],
+        "colorPermutations": {
+          "118618617418282771": [
+            {
+              "f": 0,
+              "s": 2
+            },
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(82, 82, 77)"
+        }
+      ],
+      "properties": {
+        "order": 3,
+        "id": 0,
+        "name": "checked",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 0,
+      "iconIdx": 1
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

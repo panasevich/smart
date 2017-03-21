@@ -1,0 +1,51 @@
+input[type="text"],
+input[type="password"] {
+  height: 30px;
+  border-radius: @input-radius;
+  background: @input-bg;
+  border: solid 1px @input-border;
+  box-sizing: border-box;
+  padding: 0 20px;
+  &.error {
+    border: 2px solid @error;
+  }
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  &+span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .icon-checked {
+      position: absolute;
+      display: none;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+    }
+    &:before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 9px;
+      width: 20px;
+      height: 20px;
+      border-radius: @input-radius;
+      border: solid 1px @input-border;
+      box-sizing: border-box;
+    }
+  }
+  &:checked {
+    &+span {
+      .icon-checked {
+        display: block;
+      }
+      &:before {
+        background: #FFCF00;
+      }
+    }
+  }
+}
