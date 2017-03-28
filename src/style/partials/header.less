@@ -1,0 +1,15 @@
+.header {
+  background: @header-bg;
+  height: 60px;
+  &__logo {
+    ._vertical();
+    height: 60px;
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+      @media (max-width: 1100px) {
+        width: 88px;
+      }
+    }
+  }
+}

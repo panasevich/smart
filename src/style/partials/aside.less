@@ -1,0 +1,54 @@
+.aside {
+  margin-top: 11px;
+  float: left;
+  width: 210px;
+  padding: 0 10px 0 10px;
+  &+div {
+    overflow: hidden;
+    padding: 0 10px 10px;
+  }
+  &__btns {
+    margin-top: 24px;
+    .btn {
+      width: 100%;
+      text-align: left;
+      margin-top: 10px;
+      box-shadow: @btn-shadow;
+      height: 49px;
+      &:hover {
+        box-shadow: @btn-shadow-hover;
+        background: @theme-color;
+      }
+      &:first-child {
+        margin-top: 0;
+      }
+      i {
+        font-size: 21px;
+        width: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        margin-top: -4px;
+        &.icon-lastname-change {
+          font-size: 19px;
+        }
+        &.icon-vacations {
+          font-size: 22px;
+        }
+        &.icon-business-trip {
+          font-size: 23px;
+        }
+        &.icon-sick,
+        &.icon-reference {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .aside {
+    display: none;
+  }
+}

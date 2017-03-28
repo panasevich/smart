@@ -46,15 +46,97 @@ a {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ol {
+  list-style: inside;
+}
+
+.select-holder {
+  height: 30px;
+  border-radius: @radius;
+  background: @select-bg;
+  border: solid 1px @select-border;
+  position: relative;
+  cursor: pointer;
+  &:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: @theme-color;
+    border-radius: @radius;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  i {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    font-size: 9px;
+  }
+  select {
+    padding: 0 8px;
+    font-size: 18px;
+    height: 100%;
+    outline: none;
+    border: 0;
+    background: 0;
+    width: 100%;
+    font-weight: normal;
+  }
+}
+.input-holder {
+  position: relative;
+  display: inline-block;
+  &:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: @theme-color;
+    border-radius: @radius;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  input {
+    padding-right: 30px;
+  }
+}
 
 /*
 * Custom
 */
+@import "partials/grid";
 @import "partials/fonts";
 @import "partials/variable";
 @import "partials/mixins";
 @import "partials/buttons";
 @import "partials/inputs";
 @import "partials/header";
+@import "partials/nav";
 @import "partials/footer";
 @import "partials/center";
+@import "partials/tooltip";
+@import "partials/breadcrumbs";
+@import "partials/aside";
+@import "partials/content";
+@import "partials/block";

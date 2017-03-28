@@ -1,6 +1,24 @@
 .footer {
-  text-align: center;
+  ._vertical();
   color: @secondary-color;
-  padding: 22px;
-  box-sizing: border-box;
+  background: @footer-bg;
+  font-size: 14px;
+  padding: 0 20px;
+  &-alt {
+    text-align: center;
+    padding: 22px;
+    box-sizing: border-box;
+    background: 0;
+  }
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 0;
+    font-size: 12px;
+  }
 }
