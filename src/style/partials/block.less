@@ -7,6 +7,9 @@
   font-size: 14px;
   margin-top: 10px;
   position: relative;
+  &.highlighted {
+    border: solid 2px @block-highlight;
+  }
   &:first-child {
     margin-top: 0;
   }
@@ -37,9 +40,9 @@
     i {
       color: @secondary-color;
       position: absolute;
-      font-size: 17px;
-      bottom: 3px;
-      left: 5px;
+      font-size: 18px;
+      bottom: 2px;
+      left: 4px;
     }
   }
   &__user {

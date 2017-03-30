@@ -39,7 +39,7 @@
                     <div class="nav__user-name">
                         Константин Константинопольский
                     </div>
-                    <div style="display: none" class="tooltip top-right">
+                    <div  class="tooltip top-right">
                         <div class="tooltip__wrapper">
                             <ul class="tooltip__menu">
                                 <li><a href="#"><i class="icon-usericon-menu"></i>Мой профиль</a></li>
@@ -80,7 +80,7 @@
                 <div class="content__row">
                     <div class="content__row-block">
                         <div class="content__label">Тип отпуска <b>*</b></div>
-                        <div class="select-holder">
+                        <div class="select-holder content__vacancy">
                             <i class="icon-arrow-small"></i>
                             <select >
                                 <option value="1">Ежегодный</option>
@@ -96,17 +96,48 @@
                 <div class="content__row">
                     <div class="content__row-block">
                         <div class="content__label">Даты начала и окончания отпуска <b>*</b></div>
-                        <div class="input-holder">
+                        <div class="input-holder content__calendar">
+                            <i class="icon-date-range-icon"></i>
                             <input type="text">
                         </div>
                     </div>
                     <div class="content__row-block">
                         <div class="content__label line">Остаток</div>
-                        <span>24 календарных дня</span>
+                        <span class="success">24 календарных дня</span>
                     </div>
                 </div>
-
-
+                <div class="content__row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="content__label">Даты начала и окончания отпуска</div>
+                            <div class="content__upload">
+                                <input type="file">
+                                <i class="icon-combined-shape"></i>
+                                <div>Нажмите чтобы добавить файлы или перетащите их сюда.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="content__row">
+                                <div class="content__label">Комментраии</div>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="row">
+                            <div class="content__buttons">
+                                <button class="btn btn-alt">Отменить</button>
+                                <button class="btn btn-def">Отменить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

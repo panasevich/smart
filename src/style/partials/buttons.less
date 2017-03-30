@@ -1,6 +1,7 @@
 button {
   font-family: 'proximaNova';
   outline: none;
+  cursor: pointer;
 }
 .btn {
   outline: none;
@@ -24,4 +25,34 @@ button {
   background: @btn-def-bg;
   font-size: 16px;
   font-weight: bold;
+  &[disabled] {
+    background: @btn-def-disabled;
+    cursor: default;
+  }
+}
+.btn-alt {
+  color: @secondary-color;
+  background: @btn-alt-bg;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-positive {
+  color: @btn-def-color;
+  background: @btn-positive-bg;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-round {
+  width: 43px;
+  position: relative;
+  i {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    font-size: 20px;
+    &.icon-edit {
+      left: 13px;
+    }
+  }
 }

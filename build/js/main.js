@@ -10,5 +10,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
     Custom
  */
 $(document).ready(function(){
-
+    $('.nav__user-name').click(function(){
+        $(this).parent().find('.tooltip').toggleClass('active');
+    })
 });
